@@ -1,0 +1,124 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+  }
+  
+  header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  main {
+    display: flex;
+    height: 60vh;
+  }
+  
+  /* Lado izquierdo */
+  .lado-chatbot {
+    width: 50%;
+    background-color: #BF2C2C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    box-sizing: border-box; /* Incluir padding en el ancho del elemento */
+  }
+  
+  .lado-chatbot img,
+  .lado-chatbot p,
+  .lado-chatbot button {
+    
+    margin-bottom: 10px;
+    width: 60%; /* Ocupa el 80% del contenedor */
+  }
+
+  .lado-chatbot p{
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .lado-chatbot button {
+    padding: 10px 20px; /* Ajustar el padding del botón */
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: #4CAF50; /* Color de fondo */
+    color: white;
+    font-size: 1.1em; /* Aumentar el tamaño del texto del botón */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease;
+  }
+  
+  .lado-chatbot button:hover {
+    background-color: #45a049; /* Cambio de color al pasar el ratón */
+  }
+  
+  /* Lado derecho */
+  /* Lado derecho */
+.lado-opencv {
+  width: 50%;
+  background-color: #027333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+  box-sizing: border-box; /* Incluir padding en el ancho del elemento */
+}
+
+.lado-opencv img,
+.lado-opencv p,
+.lado-opencv button {
+  margin-bottom: 10px;
+  width: 60%; /* Ocupa el 80% del contenedor */
+}
+
+.lado-opencv p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.lado-opencv button {
+  padding: 10px 20px; /* Ajustar el padding del botón */
+  border: none;
+  border-radius: 20px; /* Bordes redondeados */
+  background-color: #4CAF50; /* Color de fondo */
+  color: white;
+  font-size: 1.1em; /* Aumentar el tamaño del texto del botón */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  transition: background-color 0.3s ease;
+}
+
+.lado-opencv button:hover {
+  background-color: #45a049; /* Cambio de color al pasar el ratón */
+}
+
+  
+  /* Centro */
+  .centro {
+    position: absolute;
+    top: 40vh; /* Toma en cuenta el tamaño del encabezado */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 30%;
+  }
+  
+  .centro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px; /* Bordes redondeados */
+  }
+  
